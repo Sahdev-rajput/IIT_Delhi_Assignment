@@ -6,55 +6,53 @@ It involves drawing these rectangles on the original image and displaying the mo
 
 It is conceivable that rectangles may not be immediately visible upon the initial loading of the website, as they could potentially extend beyond the boundaries of the images. Given the random nature of these rectangles, upon refreshing the website, visibility may occur if the rectangles happen to fall within the bounds of the image.
 
+
+## Implementation
+
+This assignment has been developed using the React.js framework. React.js is a JavaScript library for building user interfaces, and it was chosen for its component-based architecture, which provides a modular and efficient way to create interactive applications.
+
+
 ## Available Scripts
+## Prerequisites
 
-## Installation
-
-To set up and install the required dependencies for this project, follow these steps:
+Make sure you have Node.js and npm installed on your machine.
 
 ## Getting Started
 
-To get a copy of this project on your local machine, follow these steps:
+To run the assignment locally, follow these steps:
 
-### Prerequisites
-
-Ensure you have the following installed:
-
-- [GitHub CLI](https://github.com/cli/cli) or [Git](https://git-scm.com/)
-
-### Clone the Repository
-
-1. Open your terminal.
-2. Run the following command to clone the repository:
+1. Clone the repository:
     ```bash
     gh repo clone Sahdev-rajput/Sahdev_Rajput_Assignment
     # OR, if you don't have GitHub CLI installed
-    # git clone https://github.com/Sahdev-rajput/Sahdev_Rajput_Assignment
+    # git clone https://github.com/Sahdev-rajput/Sahdev_Rajput_Assignment.git
     ```
 
-3. Navigate to the project directory:
+2. Navigate to the project directory:
     ```bash
     cd Sahdev_Rajput_Assignment
     ```
 
-Now you have a local copy of the project on your machine!
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
 
+4. Start the application:
+    ```bash
+    npm start
+    ```
 
+Now you can access the assignment at [http://localhost:3000](http://localhost:3000) in your web browser.
 
-In the project directory, you can run:
+## Technologies Used
 
-### `npm install`
-To install the required dependencies for this project
+- React.js
+- Ant Design (An enterprise-class UI design language and React UI library with a set of high-quality React components, one of best React UI library for enterprise.)
+- 
+## License
 
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 
 

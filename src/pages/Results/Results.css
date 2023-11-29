@@ -1,0 +1,19 @@
+.Spinner
+{
+    margin: auto
+}
+.blurred {
+    filter: blur(5px); 
+}
+.about-section
+{
+    height: auto;
+    width: 400px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    outline: 3px solid white;
+    margin: 20px auto;
+    padding: 10px;
+}

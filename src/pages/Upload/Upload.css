@@ -1,0 +1,35 @@
+*
+{
+    font-family: 'Nova Square', sans-serif;
+    background-color:rgb(28, 26, 26);
+    color: white;
+}
+.container-2
+{
+    height: auto;
+    width: 400px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    outline: 3px solid white;
+    margin: 20px auto;
+    padding: 10px;
+}
+.container-2 button
+{
+    background-color: unset;
+    color: unset
+}
+.container-3
+{
+    height: auto;
+    width: 400px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    outline: 3px solid white;
+    margin: 20px auto;
+    padding: 10px;
+}

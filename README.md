@@ -12,13 +12,32 @@ It is conceivable that rectangles may not be immediately visible upon the initia
 
 To set up and install the required dependencies for this project, follow these steps:
 
-### `Clone the Repository:`
-Ensure GitHub CLI is installed on your machine. You can download it [here](https://github.com/cli/cli/releases).
+## Getting Started
 
-Run the following commands in the integrated terminal to clone the repository:
+To get a copy of this project on your local machine, follow these steps:
 
-gh repo clone Sahdev-rajput/Sahdev_Rajput_Assignment
-cd Sahdev_Rajput_Assignment
+### Prerequisites
+
+Ensure you have the following installed:
+
+- [GitHub CLI](https://github.com/cli/cli) or [Git](https://git-scm.com/)
+
+### Clone the Repository
+
+1. Open your terminal.
+2. Run the following command to clone the repository:
+    ```bash
+    gh repo clone your-username/your-repository
+    # OR, if you don't have GitHub CLI installed
+    # git clone https://github.com/your-username/your-repository.git
+    ```
+
+3. Navigate to the project directory:
+    ```bash
+    cd your-repository
+    ```
+
+Now you have a local copy of the project on your machine!
 
 
 

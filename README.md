@@ -49,10 +49,7 @@ Now you can access the assignment at [http://localhost:3000](http://localhost:30
 
 - React.js
 - Ant Design (An enterprise-class UI design language and React UI library with a set of high-quality React components, one of best React UI library for enterprise.)
-- 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 
 

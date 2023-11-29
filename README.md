@@ -1,10 +1,32 @@
-# Getting Started with Create React App
+# Drawing Rectangles on the image uploaded
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I have created a client-side website with two pages: Upload and Results. The Upload page should allow users to select an image and click a "Go" button. Upon clicking, the image dimensions are sent to a function in the ApiClient class (refer to the provided link). This function returns an array of rectangles, where each rectangle is defined by its xMin, yMin, xMax, and yMax properties.
+
+It involves drawing these rectangles on the original image and displaying the modified image on the Results page. I have used Javascript library i.e, ReactJS to complete the assignment. 
+
+It is conceivable that rectangles may not be immediately visible upon the initial loading of the website, as they could potentially extend beyond the boundaries of the images. Given the random nature of these rectangles, upon refreshing the website, visibility may occur if the rectangles happen to fall within the bounds of the image.
 
 ## Available Scripts
 
+## Installation
+
+To set up and install the required dependencies for this project, follow these steps:
+
+1. **Clone the Repository:**
+Ensure GitHub CLI is installed on your machine. You can download it [here](https://github.com/cli/cli/releases).
+
+Run the following commands in the integrated terminal to clone the repository:
+
+gh repo clone Sahdev-rajput/Sahdev_Rajput_Assignment
+cd Sahdev_Rajput_Assignment
+
+
+
 In the project directory, you can run:
+
+### `npm install`
+To install the required dependencies for this project
+
 
 ### `npm start`
 
@@ -29,42 +51,5 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

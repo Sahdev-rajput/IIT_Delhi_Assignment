@@ -29,7 +29,7 @@ Ensure you have the following installed:
     ```bash
     gh repo clone Sahdev-rajput/Sahdev_Rajput_Assignment
     # OR, if you don't have GitHub CLI installed
-    # git clone https://github.com/your-username/your-repository.git](https://github.com/Sahdev-rajput/Sahdev_Rajput_Assignment
+    # git clone https://github.com/Sahdev-rajput/Sahdev_Rajput_Assignment
     ```
 
 3. Navigate to the project directory:

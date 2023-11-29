@@ -1,4 +1,4 @@
-# Drawing Rectangles on the image uploaded
+# Drawing Rectangles on the Image Uploaded
 
 I have created a client-side website with two pages: Upload and Results. The Upload page should allow users to select an image and click a "Go" button. Upon clicking, the image dimensions are sent to a function in the ApiClient class (refer to the provided link). This function returns an array of rectangles, where each rectangle is defined by its xMin, yMin, xMax, and yMax properties.
 
@@ -12,7 +12,7 @@ It is conceivable that rectangles may not be immediately visible upon the initia
 
 To set up and install the required dependencies for this project, follow these steps:
 
-1. **Clone the Repository:**
+### `Clone the Repository:`
 Ensure GitHub CLI is installed on your machine. You can download it [here](https://github.com/cli/cli/releases).
 
 Run the following commands in the integrated terminal to clone the repository:

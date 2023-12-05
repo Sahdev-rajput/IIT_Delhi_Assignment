@@ -4,9 +4,6 @@ I have created a client-side website with two pages: Upload and Results. The Upl
 
 It involves drawing these rectangles on the original image and displaying the modified image on the Results page. I have used Javascript library i.e, ReactJS to complete the assignment. 
 
-It is conceivable that rectangles may not be immediately visible upon the initial loading of the website, as they could potentially extend beyond the boundaries of the images. Given the random nature of these rectangles, upon refreshing the website, visibility may occur if the rectangles happen to fall within the bounds of the image.
-
-
 ## Implementation
 
 This assignment has been developed using the React.js framework. React.js is a JavaScript library for building user interfaces, and it was chosen for its component-based architecture, which provides a modular and efficient way to create interactive applications.

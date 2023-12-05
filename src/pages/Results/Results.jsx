@@ -13,16 +13,34 @@ const Results = () => {
   const [loading,setLoading]=useState(true);
   const apiClient=new ApiClient();
 
+//  const helpMe=[
+//   { xMin: 10, yMin: 10, xMax: 60, yMax: 60 },
+//   { xMin: 70, yMin: 70, xMax: 100, yMax: 100 },
+//   { xMin: 1200, yMin: 0, xMax: 1280, yMax: 720 },
+//  ];
 
   const drawRectangle = () => {
+    console.log(rectangles.length);
     const context = canvasRef.current.getContext("2d");
-    context.clearRect(0, 0, dimensions.width, dimensions.height); 
-    context.strokeStyle = "red";
     context.lineWidth = 1;
     rectangles.forEach(function(item){
-      context.strokeRect(item.xMin,item.yMin,item.xMax-item.xMin, item.yMax-item.yMin);
-    });
+      context.strokeStyle = getRandomColor();
+      const x = (item.xMin / dimensions.width) * canvasRef.current.width;
+      const y = (item.yMin / dimensions.height) * canvasRef.current.height;
+      const width = ((item.xMax - item.xMin) / dimensions.width) * canvasRef.current.width;
+      const height = ((item.yMax - item.yMin) / dimensions.height) * canvasRef.current.height;
+      context.strokeRect(x, y, width, height);   
+     });
   };
+
+  function getRandomColor() {
+    var letters = '0123456789ABCDEF';
+    var color = '#';
+    for (var i = 0; i < 6; i++) {
+      color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+  }
 
   async function getRectangles(){
     try {
@@ -36,13 +54,13 @@ const Results = () => {
 
    useEffect(() => {
     drawRectangle();
-   }, [rectangles])
+   }, [rectangles]);
    
 
    useEffect(() => {
      setImgURL(URL.createObjectURL(selectedFile));
      getRectangles();
-   }, [selectedFile])
+   }, [selectedFile]);
    
   return (
     <div>
